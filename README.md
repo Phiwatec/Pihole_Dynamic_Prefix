@@ -1,6 +1,6 @@
-#Python script for piHole used to update the IPv6 Adresses of the local network
-##Why?
-###The short answer: 
+# Python script for piHole used to update the IPv6 Adresses of the local network
+## Why?
+### The short answer: 
 **Because German (and other) ISPs suck!**  
 ###The long answer: 
 Even tough Ipv6 gives us more adresses than we could ever need, IPv6 prefixes assigned by providers are most oftem dynamic.
