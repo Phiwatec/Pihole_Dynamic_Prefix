@@ -6,7 +6,7 @@ r = requests.get('https://www.trackip.net/ip')
 if r.status_code != 200 :
     exit("ERROR: Can't get IP adress please check internet connection")
 if "." in r.text :
-    print("ERROR: Got IPv4 adress: Make shure you have IPv6 internet access")
+    exit("ERROR: Got IPv4 adress: Make shure you have IPv6 internet access")
 #function for seperating the prefix part from the host part
 def getPrefix(ip):
     ip=ip.split(":")
